@@ -11,9 +11,9 @@ You can embed an icon as follows:
 The dimensions and size can be changed as follows:
 
 	<@ Automad/Bootstrap/Icon {
-		icon: 'alert-circle',
-		w: '1.5em',
-		h: '1.5em'
+	    icon: 'alert-circle',
+	    w: '1.5em',
+	    h: '1.5em'
 	} @>
 
 ## Options
