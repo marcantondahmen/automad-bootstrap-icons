@@ -26,7 +26,11 @@ class Icon {
 
 		$options = array_merge($defaults, $options);
 
-		$file = __DIR__ . '/bootstrap-icons/icons/' . $options['icon'] . '.svg';
+		$file = __DIR__ . '/node_modules/bootstrap-icons/icons/' . $options['icon'] . '.svg';
+
+		if (!is_readable($file)) {
+			return false;
+		}
 
 		$svg = file_get_contents($file);
 		return str_replace(
