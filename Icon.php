@@ -19,9 +19,9 @@ class Icon {
 
 		$defaults = array(
 			'icon' => 'alert-circle',
-			'w' => '1.5em',
-			'h' => '1.5em',
-			'viewBox' => '0 0 20 20'
+			'w' => '1em',
+			'h' => '1em',
+			'viewBox' => '0 0 16 16'
 		);
 
 		$options = array_merge($defaults, $options);
@@ -35,9 +35,9 @@ class Icon {
 		$svg = file_get_contents($file);
 		return str_replace(
 			array(
-				'width="1em"',
-				'height="1em"', 
-				'viewBox="0 0 20 20'
+				'width="16"',
+				'height="16"', 
+				'viewBox="0 0 16 16'
 			), 
 			array(
 				'width="' . $options['w'] . '"', 
