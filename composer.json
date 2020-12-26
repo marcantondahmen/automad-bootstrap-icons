@@ -2,7 +2,10 @@
     "name": "automad/bootstrap-icons",
     "description": "This package let's you easily embed Bootstrap icons within your Automad templates",
     "type": "automad-package",
-    "keywords": ["extension"],
+    "keywords": [
+        "extension",
+        "icons"
+    ],
     "license": "MIT",
     "authors": [
         {
