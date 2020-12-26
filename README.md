@@ -25,6 +25,6 @@ An icon can have the following settings:
 | Parameter | Default |
 |--------|----------------|
 | `icon` | "alert-circle" |
-| `w` |  "1.5em" |
-| `h` | "1.5em" |
-| `viewBox` | "0 0 20 20" |
+| `w` |  "1em" |
+| `h` | "1em" |
+| `viewBox` | "0 0 16 16" |
